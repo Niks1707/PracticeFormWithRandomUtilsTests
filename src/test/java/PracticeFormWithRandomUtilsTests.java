@@ -6,18 +6,18 @@ public class PracticeFormWithRandomUtilsTests extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
     RandomUtils randomUtils = new RandomUtils();
-    String firstName = randomUtils.getFirstName;
-    String lastName = randomUtils.getLastName;
-    String userEmail = randomUtils.getUserEmail;
+    String firstName = randomUtils.getFirstName();
+    String lastName = randomUtils.getLastName();
+    String userEmail = randomUtils.getUserEmail();
     String gender= randomUtils.getRandomGender();
-    String userNumber = randomUtils.getUserNumber;
+    String userNumber = randomUtils.getUserNumber();
     String day = String.valueOf(randomUtils.getDay());
     String months = randomUtils.getMonths();
-    String year = randomUtils.getYear;
+    String year = randomUtils.getYear();
     String subjects = randomUtils.getSubjects();
     String hobbies = randomUtils.getHobbies();
     String picture = randomUtils.getRandomFile();
-    String currentAddress = randomUtils.getCurrentAddress;
+    String currentAddress = randomUtils.getCurrentAddress();
     String state = randomUtils.getState();
     String city = randomUtils.getCity(state);
 
